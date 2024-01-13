@@ -1,0 +1,28 @@
+/* src/styles/footer.css */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Adjust the height as needed */
+    background-color:white; /* Set the background color as needed */
+   
+    bottom: 0;
+  }
+  
+  .topside {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the space between "insta" elements */
+  }
+  
+  .bottomside {
+    color: black;
+    margin-top: 10px;
+    font-size:20px ;
+    font-weight: bold;/* Adjust the top margin as needed */
+  }
+  
+  /* Add additional styling as needed */
+  

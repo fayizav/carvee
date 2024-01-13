@@ -1,0 +1,30 @@
+.projectDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .projectDetailContent {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  
+  .projectDescription {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  

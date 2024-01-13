@@ -1,0 +1,58 @@
+/* ContactPage.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .left-section {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  .left-section h2{
+    margin-top: 100px;
+    color: black;
+  }
+  
+  .right-section {
+    background-color: white
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    height:500px
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 100%;
+     /* Make input fields 100% width */
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%; /* Make button 100% width */
+  }
+  
